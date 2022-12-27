@@ -1,0 +1,1472 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Novikov</title>
+		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable="no">
+		<link rel="canonical" href="URL">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="format-detection" content="address=no">
+		<meta name="description" content="Index page">
+		<meta name="keywords" content="index, page">
+		<meta name="author" content="">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="">
+		<meta name="twitter:image" content="">
+		<meta name="twitter:description" content="">
+		<meta property="og:url" content="">
+		<meta property="og:title" content="">
+		<meta property="og:description" content="">
+		<meta property="og:image" content="assets/images/opengraph.jpg">
+		<meta property="og:type" content="website"><!-- iOS-->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Novikov">
+		<link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.svg"><!-- Android-->
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="theme-color" content="#fff">
+		<link rel="icon" type="image/png" href="images/favicons/android-chrome-192x192.png" sizes="192x192"><!-- Windows-->
+		<meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
+		<meta name="msapplication-TileColor" content="#fff">
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&amp;display=swap" rel="stylesheet" type="text/css">
+		<!--link(type='font/woff', href=require('font'), rel='preload', as='font', crossorigin)-->
+		<link rel="shortcut icon" href="assets/favicon.ico">
+		<link href="vendors.css" rel="stylesheet">
+		<link href="app.css" rel="stylesheet">
+	</head>
+
+	<body class="page-custom">
+		<!--[if lt IE 9]><p class="browsehappy">Данный сайт построен на передовых, современных технологиях и не поддерживает Ваш браузер. Настоятельно рекомендуем выбрать и установить любой из &nbsp;<a href="http://browsehappy.com/" target="_blank">современных браузеров.</a> Это бесплатно и займет всего несколько минут.</p><![endif]-->
+		<div class="loading"></div>
+		<header class="page-header" data-aos="fade-down">
+			<div class="page-header__menu col__xl-4 col__lg-6 col__md-4 col__xs-4"><button class="header-menu--js btn btn-icon btn--default ui-button-circle-icon">
+					<div class="burger"><span></span><span></span><span></span></div><span class="ui-button-circle-icon__label-wr" data-text="Меню"><span class="ui-button-circle-icon__label">Меню</span></span>
+				</button><a class="btn btn-border ui-button-circle-icon" href="#"><span class="add"><img src="assets/images/header.png" alt="" /></span><span class="ui-button-circle-icon__label-wr" data-text="Заказать цветы"><span class="ui-button-circle-icon__label">Заказать цветы</span></span></a></div>
+			<div class="page-header__logo col__xl-4 col__lg-3 col__md-4 col__xs-4"><a href="/"><img src="assets/images/logo.svg" alt="Novikov"></a></div>
+			<div class="page-header__info col__xl-4 col__lg-5 col__md-5 col__xs-4">
+				<ul class="page-header__lang hidden__sm hidden__xs">
+					<li class="active"><a href="#">Ru</a></li>
+					<li><a href="#">En</a></li>
+				</ul><a class="page-header__search header-search--js" href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<circle cx="14.0676" cy="9.8995" r="6.5" transform="rotate(45 14.0676 9.8995)" stroke="black"></circle>
+						<line x1="9.73194" y1="14.4212" x2="5.04271" y2="19.1104" stroke="black"></line>
+					</svg></a><a class="page-header__cart page-header__cart--js" href="#"><svg width="30" height="23" viewBox="0 0 30 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M15.8692 1.51345C15.7408 2.34816 15.4773 3.43541 14.916 4.27727C13.9059 5.79246 12.0315 6.2998 11.3671 6.44073C11.1453 6.48776 10.9295 6.49992 10.731 6.49992H5.04588C2.79016 6.49992 1.12349 8.60239 1.63822 10.7986L3.51322 18.7986C3.88411 20.381 5.29556 21.4999 6.92088 21.4999H23.0791C24.7044 21.4999 26.1159 20.381 26.4867 18.7986L28.3617 10.7986C28.8765 8.60239 27.2098 6.49992 24.9541 6.49992H19V5.49992H24.9541C27.8543 5.49992 29.9972 8.20309 29.3354 11.0268L27.4604 19.0268C26.9835 21.0613 25.1688 22.4999 23.0791 22.4999H6.92088C4.83118 22.4999 3.01646 21.0613 2.53961 19.0268L0.664606 11.0268C0.00280368 8.2031 2.14567 5.49992 5.04588 5.49992H10.731C10.8907 5.49992 11.0308 5.4898 11.1596 5.46249C11.796 5.32752 13.3102 4.88326 14.084 3.72257C14.5227 3.06444 14.7592 2.15169 14.8808 1.36139C14.9405 0.973584 14.9704 0.629915 14.9853 0.383738C14.9927 0.260879 14.9964 0.16291 14.9982 0.0965809C14.9991 0.0634318 14.9996 0.0382326 14.9998 0.0218298L15 0.00394544L15 0.000160787L15 -0.000244141C15 -0.000165398 15 -7.71449e-05 15.5 -7.71449e-05C16 -7.71449e-05 16 3.01818e-05 16 0.000147019V0.000428783L16 0.00116449L16 0.00332033L15.9999 0.0103351L15.9997 0.0349006C15.9994 0.0558514 15.9989 0.085828 15.9978 0.123968C15.9958 0.200217 15.9916 0.309279 15.9834 0.444233C15.9671 0.713681 15.9345 1.08876 15.8692 1.51345Z" fill="black"></path>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M9.51159 18.1568L7.82523 11.0747L8.79803 10.8431L10.4844 17.9252L9.51159 18.1568Z" fill="black"></path>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M20.7981 18.1568L22.4845 11.0747L21.5117 10.8431L19.8253 17.9252L20.7981 18.1568Z" fill="black"></path>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M14.5 18V11H15.5V18H14.5Z" fill="black"></path>
+					</svg>
+					<div class="count"><span>0</span><span>1</span></div>
+				</a>
+			</div>
+		</header>
+		<nav class="navbar">
+			<ul class="page-header__lang page-header__lang--mobile">
+				<li class="active"><a href="#">Ru</a></li>
+				<li><a href="#">En</a></li>
+			</ul><button class="header-menu--js btn btn-icon btn--default ui-button-circle-icon"><img src="assets/images/icons/cross.svg" alt="" /><span class="ui-button-circle-icon__label-wr" data-text="Меню"><span class="ui-button-circle-icon__label">Меню</span></span></button>
+			<div class="navbar-btn">
+				<div class="wrapTitle">
+					<div class="word-wrap"><span><a class="btn btn-border ui-button-circle-icon" href="#"><span class="add"><img src="assets/images/header.png" alt="" /></span><span class="ui-button-circle-icon__label-wr" data-text="Заказать цветы"><span class="ui-button-circle-icon__label">Заказать цветы</span></span></a></span></div>
+				</div>
+			</div>
+			<ul class="main-nav">
+				<li class="main-nav__item"><a class="main-nav__link wrapTitle" href="/novikov/dist/restaurants.html" title="Рестораны"><span class="word-wrap"><span class="main-span">Рестораны</span></span></a></li>
+				<li class="main-nav__item"><a class="main-nav__link wrapTitle" href="/novikov/dist/projects.html" title="Проекты"><span class="word-wrap"><span class="main-span">Проекты</span></span></a></li>
+				<li class="main-nav__item"><a class="main-nav__link wrapTitle" href="/novikov/dist/partners.html" title="Партнеры"><span class="word-wrap"><span class="main-span">Партнеры</span></span></a></li>
+				<li class="main-nav__item main-nav__item--parent"><a class="main-nav__link wrapTitle" href="#" title="Программа Лояльности"><span class="word-wrap"><span class="main-span">Программа Лояльности</span></span></a>
+					<ul class="sub-nav">
+						<li class="main-nav__item"><a class="main-nav__link wrapTitle" href="/novikov/dist/discount.html" title="Дисконтные карты"><span class="word-wrap"><span>Дисконтные карты</span></span></a></li>
+						<li class="main-nav__item"><a class="main-nav__link wrapTitle" href="/novikov/dist/certificates.html" title="Подарочные сертификаты"><span class="word-wrap"><span>Подарочные сертификаты</span></span></a></li>
+					</ul>
+				</li>
+				<li class="main-nav__item"><a class="main-nav__link wrapTitle" href="/novikov/dist/about.html" title="О компании"><span class="word-wrap"><span class="main-span">О компании</span></span></a></li>
+				<li class="main-nav__item"><a class="main-nav__link wrapTitle" href="/novikov/dist/vacancies.html" title="Вакансии"><span class="word-wrap"><span class="main-span">Вакансии</span></span></a></li>
+				<li class="main-nav__item"><a class="main-nav__link wrapTitle" href="/novikov/dist/contacts.html" title="Контакты"><span class="word-wrap"><span class="main-span">Контакты</span></span></a></li>
+			</ul>
+		</nav>
+		<div class="search-block">
+			<div class="container">
+				<form class="search-block-form" method="POST" action=""><input class="search-block-input" type="text" placeholder="что вы хотите найти?"><button type="submit"><svg width="77" height="78" viewBox="0 0 77 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<ellipse cx="38.5" cy="38.6095" rx="38.5" ry="38.6095" fill="#1D1D1D"></ellipse>
+							<path d="M41.8651 34.3018L41.475 34.6145L41.8651 34.3018ZM41.8651 42.9171L41.475 42.6044L41.8651 42.9171ZM26 39.1095H51V38.1095H26V39.1095ZM51 38.6095C51 38.1095 51.0002 38.1095 51.0003 38.1095C51.0003 38.1095 51.0004 38.1095 51.0005 38.1095C51.0006 38.1095 51.0005 38.1095 51.0005 38.1095C51.0003 38.1095 50.9997 38.1095 50.9989 38.1095C50.9971 38.1094 50.994 38.1094 50.9896 38.1094C50.9809 38.1093 50.9668 38.109 50.9477 38.1086C50.9096 38.1076 50.8514 38.1057 50.775 38.1017C50.6223 38.0938 50.3973 38.0778 50.1153 38.0454C49.5506 37.9806 48.7609 37.8507 47.867 37.5909C46.0757 37.0701 43.8965 36.0365 42.2553 33.9891L41.475 34.6145C43.2868 36.8748 45.6751 37.995 47.5879 38.5511C48.5461 38.8297 49.3927 38.9691 50.0013 39.0389C50.3059 39.0738 50.5517 39.0915 50.7232 39.1004C50.809 39.1048 50.8762 39.1071 50.923 39.1083C50.9464 39.1088 50.9646 39.1091 50.9775 39.1093C50.984 39.1094 50.9891 39.1094 50.9929 39.1094C50.9948 39.1095 50.9963 39.1095 50.9975 39.1095C50.9981 39.1095 50.9986 39.1095 50.999 39.1095C50.9992 39.1095 50.9995 39.1095 50.9996 39.1095C50.9998 39.1095 51 39.1095 51 38.6095ZM42.2553 33.9891C41.3338 32.8396 40.8007 31.3641 40.4996 30.1475C40.3502 29.5439 40.2604 29.0145 40.2081 28.6371C40.182 28.4486 40.1653 28.2985 40.1552 28.1967C40.1502 28.1458 40.1468 28.1071 40.1447 28.0816C40.1437 28.0689 40.143 28.0595 40.1425 28.0536C40.1423 28.0507 40.1422 28.0486 40.1421 28.0474C40.1421 28.0468 40.142 28.0465 40.142 28.0463C40.142 28.0462 40.142 28.0462 40.142 28.0463C40.142 28.0463 40.142 28.0464 40.142 28.0464C40.142 28.0465 40.142 28.0466 39.6431 28.0796C39.1442 28.1126 39.1442 28.1127 39.1442 28.1129C39.1442 28.113 39.1443 28.1131 39.1443 28.1132C39.1443 28.1135 39.1443 28.1138 39.1443 28.1142C39.1444 28.115 39.1445 28.116 39.1445 28.1172C39.1447 28.1197 39.1449 28.123 39.1453 28.1273C39.1459 28.1358 39.1468 28.1478 39.1481 28.1632C39.1506 28.1941 39.1545 28.2385 39.1601 28.2953C39.1714 28.4088 39.1895 28.5718 39.2176 28.7743C39.2736 29.1789 39.3694 29.7435 39.5289 30.3878C39.8455 31.667 40.4233 33.3026 41.475 34.6145L42.2553 33.9891ZM51 38.6095C51 38.1095 50.9998 38.1095 50.9996 38.1095C50.9995 38.1095 50.9992 38.1095 50.999 38.1095C50.9986 38.1095 50.9981 38.1095 50.9975 38.1095C50.9963 38.1095 50.9948 38.1095 50.9929 38.1095C50.9891 38.1095 50.984 38.1096 50.9775 38.1096C50.9646 38.1098 50.9464 38.1101 50.923 38.1107C50.8762 38.1118 50.809 38.1141 50.7232 38.1186C50.5517 38.1275 50.3059 38.1451 50.0013 38.18C49.3927 38.2499 48.5461 38.3892 47.5879 38.6678C45.6751 39.2239 43.2868 40.3442 41.475 42.6044L42.2553 43.2299C43.8965 41.1824 46.0757 40.1489 47.867 39.628C48.7609 39.3682 49.5506 39.2383 50.1153 39.1735C50.3973 39.1412 50.6223 39.1251 50.775 39.1172C50.8514 39.1132 50.9096 39.1113 50.9477 39.1104C50.9668 39.1099 50.9809 39.1097 50.9896 39.1096C50.994 39.1095 50.9971 39.1095 50.9989 39.1095C50.9997 39.1095 51.0003 39.1095 51.0005 39.1095C51.0005 39.1095 51.0006 39.1095 51.0005 39.1095C51.0004 39.1095 51.0003 39.1095 51.0003 39.1095C51.0002 39.1095 51 39.1095 51 38.6095ZM41.475 42.6044C40.4233 43.9163 39.8455 45.552 39.5289 46.8312C39.3694 47.4754 39.2736 48.04 39.2176 48.4447C39.1895 48.6472 39.1714 48.8102 39.1601 48.9237C39.1545 48.9804 39.1506 49.0249 39.1481 49.0557C39.1468 49.0711 39.1459 49.0832 39.1453 49.0916C39.1449 49.0959 39.1447 49.0993 39.1445 49.1017C39.1445 49.1029 39.1444 49.1039 39.1443 49.1047C39.1443 49.1051 39.1443 49.1054 39.1443 49.1057C39.1443 49.1058 39.1442 49.106 39.1442 49.106C39.1442 49.1062 39.1442 49.1063 39.6431 49.1393C40.142 49.1724 40.142 49.1725 40.142 49.1726C40.142 49.1726 40.142 49.1726 40.142 49.1727C40.142 49.1727 40.142 49.1727 40.142 49.1726C40.142 49.1725 40.1421 49.1721 40.1421 49.1715C40.1422 49.1703 40.1423 49.1683 40.1425 49.1653C40.143 49.1594 40.1437 49.15 40.1447 49.1373C40.1468 49.1119 40.1502 49.0731 40.1552 49.0222C40.1653 48.9204 40.182 48.7704 40.2081 48.5819C40.2604 48.2044 40.3502 47.675 40.4996 47.0714C40.8007 45.8548 41.3338 44.3794 42.2553 43.2299L41.475 42.6044Z" fill="white"></path>
+						</svg></button><a class="search-block--js" href="#"><svg width="77" height="78" viewBox="0 0 77 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M76.5 38.6095C76.5 59.6581 59.4855 76.719 38.5 76.719C17.5145 76.719 0.5 59.6581 0.5 38.6095C0.5 17.5609 17.5145 0.5 38.5 0.5C59.4855 0.5 76.5 17.5609 76.5 38.6095Z" fill="#000" stroke="#1D1D1D"></path>
+							<rect x="27" y="27.9428" width="1.33333" height="33.3333" transform="rotate(-45 27 27.9428)" fill="white"></rect>
+							<rect x="50.5703" y="27.0001" width="1.33333" height="33.3333" transform="rotate(45 50.5703 27.0001)" fill="white"></rect>
+						</svg></a></form>
+			</div>
+		</div>
+		<div class="cart-block">
+			<div class="cart-block-head" data-aos="fade-right">
+				<div class="head">ваш заказ</div>
+				<div class="page-header__close page-header__close--js"><svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<circle cx="30" cy="30" r="29.5" stroke="#E5E5E5" fill="white"></circle>
+						<rect x="18" y="18.9428" width="1.33333" height="33.3333" transform="rotate(-45 18 18.9428)" fill="black"></rect>
+						<rect x="41.5703" y="18.0001" width="1.33333" height="33.3333" transform="rotate(45 41.5703 18.0001)" fill="black"></rect>
+					</svg></div>
+				<div class="page-header__cart active page-header__close--js"><svg width="30" height="23" viewBox="0 0 30 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M15.8692 1.51345C15.7408 2.34816 15.4773 3.43541 14.916 4.27727C13.9059 5.79246 12.0315 6.2998 11.3671 6.44073C11.1453 6.48776 10.9295 6.49992 10.731 6.49992H5.04588C2.79016 6.49992 1.12349 8.60239 1.63822 10.7986L3.51322 18.7986C3.88411 20.381 5.29556 21.4999 6.92088 21.4999H23.0791C24.7044 21.4999 26.1159 20.381 26.4867 18.7986L28.3617 10.7986C28.8765 8.60239 27.2098 6.49992 24.9541 6.49992H19V5.49992H24.9541C27.8543 5.49992 29.9972 8.20309 29.3354 11.0268L27.4604 19.0268C26.9835 21.0613 25.1688 22.4999 23.0791 22.4999H6.92088C4.83118 22.4999 3.01646 21.0613 2.53961 19.0268L0.664606 11.0268C0.00280368 8.2031 2.14567 5.49992 5.04588 5.49992H10.731C10.8907 5.49992 11.0308 5.4898 11.1596 5.46249C11.796 5.32752 13.3102 4.88326 14.084 3.72257C14.5227 3.06444 14.7592 2.15169 14.8808 1.36139C14.9405 0.973584 14.9704 0.629915 14.9853 0.383738C14.9927 0.260879 14.9964 0.16291 14.9982 0.0965809C14.9991 0.0634318 14.9996 0.0382326 14.9998 0.0218298L15 0.00394544L15 0.000160787L15 -0.000244141C15 -0.000165398 15 -7.71449e-05 15.5 -7.71449e-05C16 -7.71449e-05 16 3.01818e-05 16 0.000147019V0.000428783L16 0.00116449L16 0.00332033L15.9999 0.0103351L15.9997 0.0349006C15.9994 0.0558514 15.9989 0.085828 15.9978 0.123968C15.9958 0.200217 15.9916 0.309279 15.9834 0.444233C15.9671 0.713681 15.9345 1.08876 15.8692 1.51345Z" fill="black"></path>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M9.51159 18.1568L7.82523 11.0747L8.79803 10.8431L10.4844 17.9252L9.51159 18.1568Z" fill="black"></path>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M20.7981 18.1568L22.4845 11.0747L21.5117 10.8431L19.8253 17.9252L20.7981 18.1568Z" fill="black"></path>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M14.5 18V11H15.5V18H14.5Z" fill="black"></path>
+					</svg>
+					<div class="count"><span>0</span><span>1</span></div>
+				</div>
+			</div>
+			<div class="cart-block-body">
+				<div class="cart-block-body-null"><img src="assets/images/icons/null.svg" alt="" /></div>
+			</div>
+			<div class="cart-block-bottom">
+				<div class="cart-block-count cart-block-count--null">
+					<div>Итого</div>
+					<div class="card-summ" data-summ="10000"><b><span>0</span> ₽</b></div>
+				</div><a class="btn btn--full btn--primary disabled" href="#" disabled>заказать</a>
+			</div>
+		</div>
+		<div class="main">
+			<main class="page-restaurant" data-name="page-order">
+				<div class="m-auto col__xl-9" data-aos="fade-up">
+					<h1 class="select-wrapper">
+						<div class="wrapTitle" data-aos><span class="word-wrap"><span>Рестораны&nbsp;</span></span><span class="word-wrap"><span>в&nbsp;</span></span><span class="br"></span><span class="word-wrap">
+								<div><select class="select-template" style="width: 220px">
+										<option value="sochi" selected>Сочи</option>
+										<option value="mosk">москве</option>
+										<option value="spb">санкт-петербурге</option>
+										<option value="novo">новосибирске</option>
+										<option value="kras">краснодаре</option>
+										<option value="eka">екатеринбурге</option>
+									</select></div>
+							</span></div>
+					</h1>
+					<div class="filters set-tab" data-aos="fade-up">
+						<div class="tab-container filter test-tab--js">
+							<div class="tabs">
+								<div class="tab active" data-toggle-target=".list">списком</div>
+								<div class="tab" data-toggle-target=".map">на карте</div>
+							</div>
+						</div>
+						<div class="filter-item filter-item--main select-wrapper" data-aos="fade-up"><select class="select-template" style="width: 200px">
+								<option value="georgia" selected>Грузинская кухня</option>
+								<option value="thai">тайская</option>
+								<option value="american">Американская</option>
+								<option value="adyghe">Адыгейская</option>
+								<option value="europe">европейская</option>
+								<option value="asian">азиатская</option>
+							</select></div>
+						<div class="filter-item" data-aos="fade-up">
+							<div class="filter-checkbox"><input type="checkbox" name="delivery" id="delivery"><label for="delivery"><svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.1537 3.85676L9.77008 4.17746L10.1537 3.85676ZM10.1537 9.14347L9.77008 8.82276L10.1537 9.14347ZM0 7.00011L16 7.00011V6.00011L0 6.00011L0 7.00011ZM16 6.50011C16 6.00011 16.0002 6.00011 16.0003 6.00011C16.0003 6.00011 16.0005 6.00011 16.0005 6.00011C16.0007 6.00011 16.0007 6.00011 16.0008 6.00011C16.0008 6.00011 16.0006 6.00011 16.0002 6.00011C15.9994 6.00011 15.9978 6.00009 15.9953 6.00007C15.9903 6.00001 15.982 5.99988 15.9705 5.99961C15.9474 5.99906 15.9116 5.99792 15.8643 5.99557C15.7695 5.99085 15.6288 5.98127 15.452 5.96181C15.0976 5.92283 14.6013 5.84458 14.0398 5.68806C12.9119 5.37364 11.555 4.75335 10.5373 3.53605L9.77008 4.17746C10.9623 5.60352 12.5286 6.30491 13.7713 6.65133C14.3951 6.82522 14.9461 6.91219 15.3426 6.95581C15.5412 6.97766 15.7018 6.98872 15.8146 6.99433C15.871 6.99714 15.9155 6.99858 15.9468 6.99933C15.9624 6.9997 15.9748 6.99989 15.9837 7C15.9882 7.00005 15.9918 7.00008 15.9945 7.00009C15.9958 7.0001 15.997 7.00011 15.9979 7.00011C15.9984 7.00011 15.9988 7.00011 15.9991 7.00011C15.9993 7.00011 15.9995 7.00011 15.9996 7.00011C15.9998 7.00011 16 7.00011 16 6.50011ZM10.5373 3.53605C9.97383 2.8621 9.64234 1.98885 9.45323 1.25628C9.35982 0.894434 9.30371 0.577067 9.27109 0.35127C9.25481 0.23858 9.24446 0.149274 9.23827 0.0893172C9.23517 0.0593546 9.23312 0.0367704 9.23189 0.0223136C9.23127 0.0150867 9.23086 0.00989591 9.23062 0.00683494C9.2305 0.00530462 9.23043 0.00430724 9.2304 0.00385453C9.23038 0.00362819 9.23037 0.00353808 9.23038 0.00358566C9.23038 0.00360945 9.23038 0.00366767 9.23039 0.00376051C9.23039 0.00380686 9.2304 0.00390265 9.2304 0.00392575C9.23041 0.00403001 9.23042 0.00414305 8.7316 0.0385742C8.23279 0.0730054 8.2328 0.073136 8.23281 0.0732755C8.23281 0.0733337 8.23282 0.0734822 8.23283 0.0735988C8.23285 0.0738322 8.23287 0.0741009 8.23289 0.0744049C8.23293 0.075013 8.23298 0.0757621 8.23305 0.0766507C8.23318 0.078428 8.23335 0.0807637 8.23358 0.083646C8.23402 0.0894101 8.23466 0.0973622 8.23551 0.107407C8.23723 0.127492 8.23983 0.155964 8.24356 0.192054C8.25101 0.264202 8.26298 0.366989 8.28136 0.494251C8.31807 0.748358 8.3807 1.10233 8.48497 1.50623C8.6912 2.30514 9.07075 3.34098 9.77008 4.17746L10.5373 3.53605ZM16 6.50011C16 6.00011 15.9998 6.00011 15.9996 6.00011C15.9995 6.00011 15.9993 6.00011 15.9991 6.00011C15.9988 6.00011 15.9984 6.00011 15.9979 6.00012C15.997 6.00012 15.9958 6.00012 15.9945 6.00013C15.9918 6.00015 15.9882 6.00017 15.9837 6.00023C15.9748 6.00033 15.9624 6.00053 15.9468 6.0009C15.9155 6.00164 15.871 6.00309 15.8146 6.00589C15.7018 6.0115 15.5412 6.02257 15.3426 6.04441C14.9461 6.08804 14.3951 6.175 13.7713 6.34889C12.5286 6.69532 10.9623 7.3967 9.77008 8.82276L10.5373 9.46417C11.555 8.24688 12.9119 7.62658 14.0398 7.31217C14.6013 7.15564 15.0976 7.0774 15.452 7.03842C15.6288 7.01896 15.7695 7.00937 15.8643 7.00466C15.9116 7.0023 15.9474 7.00116 15.9705 7.00062C15.982 7.00034 15.9903 7.00022 15.9953 7.00016C15.9978 7.00013 15.9994 7.00012 16.0002 7.00011C16.0006 7.00011 16.0008 7.00011 16.0008 7.00011C16.0007 7.00011 16.0007 7.00011 16.0005 7.00011C16.0005 7.00011 16.0003 7.00011 16.0003 7.00011C16.0002 7.00011 16 7.00011 16 6.50011ZM9.77008 8.82276C9.07075 9.65924 8.6912 10.6951 8.48497 11.494C8.3807 11.8979 8.31807 12.2519 8.28136 12.506C8.26298 12.6332 8.25101 12.736 8.24356 12.8082C8.23983 12.8443 8.23723 12.8727 8.23551 12.8928C8.23466 12.9029 8.23402 12.9108 8.23358 12.9166C8.23335 12.9195 8.23318 12.9218 8.23305 12.9236C8.23298 12.9245 8.23293 12.9252 8.23289 12.9258C8.23287 12.9261 8.23285 12.9264 8.23283 12.9266C8.23282 12.9267 8.23281 12.9269 8.23281 12.9269C8.2328 12.9271 8.23279 12.9272 8.7316 12.9617C9.23042 12.9961 9.23041 12.9962 9.2304 12.9963C9.2304 12.9963 9.23039 12.9964 9.23039 12.9965C9.23038 12.9966 9.23038 12.9966 9.23038 12.9966C9.23037 12.9967 9.23038 12.9966 9.2304 12.9964C9.23043 12.9959 9.2305 12.9949 9.23062 12.9934C9.23086 12.9903 9.23127 12.9851 9.23189 12.9779C9.23312 12.9635 9.23517 12.9409 9.23827 12.9109C9.24446 12.851 9.25481 12.7616 9.27109 12.649C9.30371 12.4232 9.35982 12.1058 9.45323 11.7439C9.64234 11.0114 9.97383 10.1381 10.5373 9.46417L9.77008 8.82276Z" fill="#000"></path>
+									</svg><span>есть Доставка</span></label></div>
+						</div>
+						<div class="filter-item" data-aos="fade-up">
+							<div class="filter-checkbox"><input type="checkbox" name="hall" id="hall"><label for="hall"><svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.1537 3.85676L9.77008 4.17746L10.1537 3.85676ZM10.1537 9.14347L9.77008 8.82276L10.1537 9.14347ZM0 7.00011L16 7.00011V6.00011L0 6.00011L0 7.00011ZM16 6.50011C16 6.00011 16.0002 6.00011 16.0003 6.00011C16.0003 6.00011 16.0005 6.00011 16.0005 6.00011C16.0007 6.00011 16.0007 6.00011 16.0008 6.00011C16.0008 6.00011 16.0006 6.00011 16.0002 6.00011C15.9994 6.00011 15.9978 6.00009 15.9953 6.00007C15.9903 6.00001 15.982 5.99988 15.9705 5.99961C15.9474 5.99906 15.9116 5.99792 15.8643 5.99557C15.7695 5.99085 15.6288 5.98127 15.452 5.96181C15.0976 5.92283 14.6013 5.84458 14.0398 5.68806C12.9119 5.37364 11.555 4.75335 10.5373 3.53605L9.77008 4.17746C10.9623 5.60352 12.5286 6.30491 13.7713 6.65133C14.3951 6.82522 14.9461 6.91219 15.3426 6.95581C15.5412 6.97766 15.7018 6.98872 15.8146 6.99433C15.871 6.99714 15.9155 6.99858 15.9468 6.99933C15.9624 6.9997 15.9748 6.99989 15.9837 7C15.9882 7.00005 15.9918 7.00008 15.9945 7.00009C15.9958 7.0001 15.997 7.00011 15.9979 7.00011C15.9984 7.00011 15.9988 7.00011 15.9991 7.00011C15.9993 7.00011 15.9995 7.00011 15.9996 7.00011C15.9998 7.00011 16 7.00011 16 6.50011ZM10.5373 3.53605C9.97383 2.8621 9.64234 1.98885 9.45323 1.25628C9.35982 0.894434 9.30371 0.577067 9.27109 0.35127C9.25481 0.23858 9.24446 0.149274 9.23827 0.0893172C9.23517 0.0593546 9.23312 0.0367704 9.23189 0.0223136C9.23127 0.0150867 9.23086 0.00989591 9.23062 0.00683494C9.2305 0.00530462 9.23043 0.00430724 9.2304 0.00385453C9.23038 0.00362819 9.23037 0.00353808 9.23038 0.00358566C9.23038 0.00360945 9.23038 0.00366767 9.23039 0.00376051C9.23039 0.00380686 9.2304 0.00390265 9.2304 0.00392575C9.23041 0.00403001 9.23042 0.00414305 8.7316 0.0385742C8.23279 0.0730054 8.2328 0.073136 8.23281 0.0732755C8.23281 0.0733337 8.23282 0.0734822 8.23283 0.0735988C8.23285 0.0738322 8.23287 0.0741009 8.23289 0.0744049C8.23293 0.075013 8.23298 0.0757621 8.23305 0.0766507C8.23318 0.078428 8.23335 0.0807637 8.23358 0.083646C8.23402 0.0894101 8.23466 0.0973622 8.23551 0.107407C8.23723 0.127492 8.23983 0.155964 8.24356 0.192054C8.25101 0.264202 8.26298 0.366989 8.28136 0.494251C8.31807 0.748358 8.3807 1.10233 8.48497 1.50623C8.6912 2.30514 9.07075 3.34098 9.77008 4.17746L10.5373 3.53605ZM16 6.50011C16 6.00011 15.9998 6.00011 15.9996 6.00011C15.9995 6.00011 15.9993 6.00011 15.9991 6.00011C15.9988 6.00011 15.9984 6.00011 15.9979 6.00012C15.997 6.00012 15.9958 6.00012 15.9945 6.00013C15.9918 6.00015 15.9882 6.00017 15.9837 6.00023C15.9748 6.00033 15.9624 6.00053 15.9468 6.0009C15.9155 6.00164 15.871 6.00309 15.8146 6.00589C15.7018 6.0115 15.5412 6.02257 15.3426 6.04441C14.9461 6.08804 14.3951 6.175 13.7713 6.34889C12.5286 6.69532 10.9623 7.3967 9.77008 8.82276L10.5373 9.46417C11.555 8.24688 12.9119 7.62658 14.0398 7.31217C14.6013 7.15564 15.0976 7.0774 15.452 7.03842C15.6288 7.01896 15.7695 7.00937 15.8643 7.00466C15.9116 7.0023 15.9474 7.00116 15.9705 7.00062C15.982 7.00034 15.9903 7.00022 15.9953 7.00016C15.9978 7.00013 15.9994 7.00012 16.0002 7.00011C16.0006 7.00011 16.0008 7.00011 16.0008 7.00011C16.0007 7.00011 16.0007 7.00011 16.0005 7.00011C16.0005 7.00011 16.0003 7.00011 16.0003 7.00011C16.0002 7.00011 16 7.00011 16 6.50011ZM9.77008 8.82276C9.07075 9.65924 8.6912 10.6951 8.48497 11.494C8.3807 11.8979 8.31807 12.2519 8.28136 12.506C8.26298 12.6332 8.25101 12.736 8.24356 12.8082C8.23983 12.8443 8.23723 12.8727 8.23551 12.8928C8.23466 12.9029 8.23402 12.9108 8.23358 12.9166C8.23335 12.9195 8.23318 12.9218 8.23305 12.9236C8.23298 12.9245 8.23293 12.9252 8.23289 12.9258C8.23287 12.9261 8.23285 12.9264 8.23283 12.9266C8.23282 12.9267 8.23281 12.9269 8.23281 12.9269C8.2328 12.9271 8.23279 12.9272 8.7316 12.9617C9.23042 12.9961 9.23041 12.9962 9.2304 12.9963C9.2304 12.9963 9.23039 12.9964 9.23039 12.9965C9.23038 12.9966 9.23038 12.9966 9.23038 12.9966C9.23037 12.9967 9.23038 12.9966 9.2304 12.9964C9.23043 12.9959 9.2305 12.9949 9.23062 12.9934C9.23086 12.9903 9.23127 12.9851 9.23189 12.9779C9.23312 12.9635 9.23517 12.9409 9.23827 12.9109C9.24446 12.851 9.25481 12.7616 9.27109 12.649C9.30371 12.4232 9.35982 12.1058 9.45323 11.7439C9.64234 11.0114 9.97383 10.1381 10.5373 9.46417L9.77008 8.82276Z" fill="#000"></path>
+									</svg><span>Есть банкетный зал</span></label></div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-content list">
+					<div class="row" data-type="items_container">
+						<div class="col col__lg-4 col__md-6 col__xs-12" data-aos="fade-up" data-item="order-item"><a class="restaurant" href="#">
+								<div class="restaurant-img">
+									<div class="badge">
+										<div class="marquee">
+											<div class="track">
+												<div class="content">NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW</div>
+											</div>
+										</div>
+										<div class="marquee">
+											<div class="track">
+												<div class="content">SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON</div>
+											</div>
+										</div>
+									</div><img src="assets/images/index/slide-1.jpg" alt="" />
+									<div class="logo"><img src="assets/images/index/logo-1.jpg" alt="" /></div>
+								</div>
+								<div class="restaurant-desc">
+									<h3>Nino</h3>
+									<div class="inner">
+										<ul class="list--bullet">
+											<li>Доставка</li>
+											<li>банкет</li>
+										</ul>
+										<div class="list">
+											<div class="title">кухни</div>
+											<div class="text">
+												<div>грузинская</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a></div>
+						<div class="col col__lg-4 col__md-6 col__xs-12" data-aos="fade-up" data-item="order-item"><a class="restaurant" href="#">
+								<div class="restaurant-img">
+									<div class="badge">
+										<div class="marquee">
+											<div class="track">
+												<div class="content">NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW</div>
+											</div>
+										</div>
+										<div class="marquee">
+											<div class="track">
+												<div class="content">SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON</div>
+											</div>
+										</div>
+									</div><img src="assets/images/index/slide-2.jpg" alt="" />
+									<div class="logo"><img src="assets/images/index/logo-2.jpg" alt="" /></div>
+								</div>
+								<div class="restaurant-desc">
+									<h3>СЫРОВАРНЯ АЛЬМЕТЬЕВСК</h3>
+									<div class="inner">
+										<ul class="list--bullet">
+											<li>банкет</li>
+										</ul>
+										<div class="list">
+											<div class="title">кухни</div>
+											<div class="text">
+												<div>Адыгейская</div>
+												<div>Американская</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a></div>
+						<div class="col col__lg-4 col__md-6 col__xs-12" data-aos="fade-up" data-item="order-item"><a class="restaurant" href="#">
+								<div class="restaurant-img">
+									<div class="badge">
+										<div class="marquee">
+											<div class="track">
+												<div class="content">NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW</div>
+											</div>
+										</div>
+									</div><img src="assets/images/index/slide-3.jpg" alt="" />
+								</div>
+								<div class="restaurant-desc">
+									<h3>aqua</h3>
+									<div class="inner">
+										<ul class="list--bullet"></ul>
+										<div class="list">
+											<div class="title">кухни</div>
+											<div class="text">
+												<div>азиатская</div>
+												<div>европейская</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a></div>
+						<div class="col col__lg-4 col__md-6 col__xs-12" data-aos="fade-up"><a class="restaurant" href="#">
+								<div class="restaurant-img">
+									<div class="badge">
+										<div class="marquee">
+											<div class="track">
+												<div class="content">SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON</div>
+											</div>
+										</div>
+									</div><img src="assets/images/index/slide-4.jpg" alt="" />
+								</div>
+								<div class="restaurant-desc">
+									<h3>КЛЁВО НА УСАЧЕВСКОМ</h3>
+									<div class="inner">
+										<ul class="list--bullet">
+											<li>Доставка</li>
+											<li>банкет</li>
+										</ul>
+										<div class="list">
+											<div class="title">кухни</div>
+											<div class="text">
+												<div>тайская</div>
+												<div>Американская</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a></div>
+						<div class="col col__lg-4 col__md-6 col__xs-12" data-aos="fade-up" data-item="order-item"><a class="restaurant" href="#">
+								<div class="restaurant-img">
+									<div class="badge">
+										<div class="marquee">
+											<div class="track">
+												<div class="content">NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW</div>
+											</div>
+										</div>
+										<div class="marquee">
+											<div class="track">
+												<div class="content">SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON</div>
+											</div>
+										</div>
+									</div><img src="assets/images/index/slide-1.jpg" alt="" />
+									<div class="logo"><img src="assets/images/index/logo-1.jpg" alt="" /></div>
+								</div>
+								<div class="restaurant-desc">
+									<h3>Nino</h3>
+									<div class="inner">
+										<ul class="list--bullet">
+											<li>Доставка</li>
+											<li>банкет</li>
+										</ul>
+										<div class="list">
+											<div class="title">кухни</div>
+											<div class="text">
+												<div>грузинская</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a></div>
+						<div class="col col__lg-4 col__md-6 col__xs-12" data-aos="fade-up" data-item="order-item"><a class="restaurant" href="#">
+								<div class="restaurant-img">
+									<div class="badge">
+										<div class="marquee">
+											<div class="track">
+												<div class="content">NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW</div>
+											</div>
+										</div>
+										<div class="marquee">
+											<div class="track">
+												<div class="content">SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON</div>
+											</div>
+										</div>
+									</div><img src="assets/images/index/slide-2.jpg" alt="" />
+									<div class="logo"><img src="assets/images/index/logo-2.jpg" alt="" /></div>
+								</div>
+								<div class="restaurant-desc">
+									<h3>СЫРОВАРНЯ АЛЬМЕТЬЕВСК</h3>
+									<div class="inner">
+										<ul class="list--bullet">
+											<li>банкет</li>
+										</ul>
+										<div class="list">
+											<div class="title">кухни</div>
+											<div class="text">
+												<div>Адыгейская</div>
+												<div>Американская</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a></div>
+						<div class="col col__lg-4 col__md-6 col__xs-12" data-aos="fade-up" data-item="order-item"><a class="restaurant" href="#">
+								<div class="restaurant-img">
+									<div class="badge">
+										<div class="marquee">
+											<div class="track">
+												<div class="content">NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW — NEW</div>
+											</div>
+										</div>
+									</div><img src="assets/images/index/slide-3.jpg" alt="" />
+								</div>
+								<div class="restaurant-desc">
+									<h3>aqua</h3>
+									<div class="inner">
+										<ul class="list--bullet"></ul>
+										<div class="list">
+											<div class="title">кухни</div>
+											<div class="text">
+												<div>азиатская</div>
+												<div>европейская</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a></div>
+						<div class="col col__lg-4 col__md-6 col__xs-12" data-aos="fade-up"><a class="restaurant" href="#">
+								<div class="restaurant-img">
+									<div class="badge">
+										<div class="marquee">
+											<div class="track">
+												<div class="content">SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON — SOON</div>
+											</div>
+										</div>
+									</div><img src="assets/images/index/slide-4.jpg" alt="" />
+								</div>
+								<div class="restaurant-desc">
+									<h3>КЛЁВО НА УСАЧЕВСКОМ</h3>
+									<div class="inner">
+										<ul class="list--bullet">
+											<li>Доставка</li>
+											<li>банкет</li>
+										</ul>
+										<div class="list">
+											<div class="title">кухни</div>
+											<div class="text">
+												<div>тайская</div>
+												<div>Американская</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a></div>
+					</div>
+				</div>
+				<div class="tab-content map active">
+					<div class="map-list" data-aos="fade-up">
+						<div id="restYMaps"></div>
+						<div class="scrollContent mapList" data-aos="fade-up">
+							<div class="mapList-item restaurant-desc" id="16498" data-adr="55.756781,37.627678" data-type="map-item" data-name="5642 ВЫСОТА" data-phone="+7 (495) 624 93 21" data-address="Большой Черкасский пер., 15-17, стр. 1" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>5642 ВЫСОТА</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Кавказская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/5642-vysota/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="57300" data-adr="55.71307,37.558454" data-type="map-item" data-name="Aqua Cafe" data-phone="" data-address="ул. Лужники, 24, строение 4" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Aqua Cafe</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Домашняя</div>
+											<div>Европейская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/aqua-cafe/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="1114" data-adr="55.71307,37.5583" data-type="map-item" data-name="Aquamarine" data-phone="+7 (499) 755 69 89" data-address="ул. Лужники, 24, строение 4" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Aquamarine</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Европейская</div>
+											<div>Итальянская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/aquamarine/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16475" data-adr="55.754444336748,37.586532845497" data-type="map-item" data-name="ARTEST" data-phone="+7 (499) 530 80 87" data-address="Трубниковский переулок, д. 15, стр. 2 " data-site="https://artest.rest">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>ARTEST</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Авторская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/artest/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16474" data-adr="55.762289135795,37.595579506853" data-type="map-item" data-name="Avocado Queen" data-phone="+7 (495) 609 09 38" data-address="ул. Малая Бронная, 20, стр. 1" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Avocado Queen</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Smart Comfort Food</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/avocado-queen/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="53709" data-adr="55.744948385987,37.566943308671" data-type="map-item" data-name="Avocado Queen Европейский" data-phone="7 (916) 422 50 89" data-address="Площадь Киевского Вокзала, 2, Москва (Атриум Берлин, ТРЦ «Европейский», этаж 2)" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Avocado Queen Европейский</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Smart Comfort Food</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/avocado-queen-evropeyskiy/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="53707" data-adr="55.694384850009,37.67432648095" data-type="map-item" data-name="Avocado Queen Остров Мечты" data-phone="+7 (916) 105 54 45" data-address="Андропова пр-т, 1" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Avocado Queen Остров Мечты</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Smart Comfort Food</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/avocado-queen-ostrov-mechty/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16445" data-adr="55.761281,37.618379" data-type="map-item" data-name="BOLSHOI" data-phone="+7 (495) 789 86 52" data-address="ул. Петровка, 3 стр. 2" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>BOLSHOI</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Европейская</div>
+											<div>Русская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/bolshoi/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16473" data-adr="55.763548936616,37.593838077553" data-type="map-item" data-name="BRO&amp;N" data-phone="+7 (495) 650 00 50" data-address="Малая Бронная 27/14" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>BRO&N</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Американская</div>
+											<div>Итальянская</div>
+											<div>Мясная</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/bro-n/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="51719" data-adr="55.759984845507,37.614140264526" data-type="map-item" data-name="BRO&amp;N Камергерский" data-phone="+7 (495) 692 02 47" data-address="Камергерский переулок, 6/5, стр. 3" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>BRO&N Камергерский</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Американская</div>
+											<div>Итальянская</div>
+											<div>Мясная</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/bro-n-kamergerskiy/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16472" data-adr="55.745343088482,37.586693007782" data-type="map-item" data-name="Cantinetta Antinori" data-phone="+7 (499) 241 33 25" data-address="Денежный пер., 20" data-site="http://cantinettaantinori.ru">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Cantinetta Antinori</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Итальянская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/cantinetta-antinori/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16471" data-adr="55.768722047103,37.586151971817" data-type="map-item" data-name="China Club" data-phone="+7 (495) 232 27 78" data-address="ул. Красина, 21" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>China Club</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Азиатская</div>
+											<div>Паназиатская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/china-club/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16470" data-adr="55.751992226148,37.585789985497" data-type="map-item" data-name="Cihan Steak &amp; Kebab" data-phone=" +7 (495) 787 75 88" data-address="ул. Новый Арбат, 21" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Cihan Steak & Kebab</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Турецкая</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/cihan-steak-kebab/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16468" data-adr="55.761839729332,37.617681930295" data-type="map-item" data-name="Fumisawa Sushi" data-phone="+7 (495) 775 19 69" data-address="ул. Петровка, 5, Берлинский дом " data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Fumisawa Sushi</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Японская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/fumisawa-sushi/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16467" data-adr="55.767752,37.613356" data-type="map-item" data-name="Gallery2Fly" data-phone="+7 (925) 585 31 25 " data-address="ул. Петровка, 27" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Gallery2Fly</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Европейская</div>
+											<div>Итальянская</div>
+											<div>Средиземноморская</div>
+											<div>Японская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/gallery-to-fly/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="51711" data-adr="55.767752,37.6132" data-type="map-item" data-name="Gallery2Go" data-phone="+7 (925) 585 31 25 " data-address="ул. Петровка, 27" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Gallery2Go</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Европейская</div>
+											<div>Итальянская</div>
+											<div>Средиземноморская</div>
+											<div>Японская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/gallery2go/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16466" data-adr="55.75608033406,37.627535291145" data-type="map-item" data-name="ILSOLO" data-phone="+7 (495) 295 15 17 " data-address="Большой Черкасский пер., 15/17, стр.1 " data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>ILSOLO</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Итальянская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/ilsolo/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="57378" data-adr="55.768496848991,37.615119163573" data-type="map-item" data-name="Krispy Kreme" data-phone="+7 (985) 206 00 07" data-address="Пресненская набережная, д. 12, Башня Федерация, -2 этаж" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Krispy Kreme</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Американская</div>
+											<div>Выпечка</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/krispy-kreme/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16464" data-adr="55.766682502202,37.623889979679" data-type="map-item" data-name="Lavocado" data-phone="7 (903) 580 18 49" data-address="Лесная улица, д.20, стр 3 (Фудмолл Депо)" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Lavocado</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Вегетарианская</div>
+											<div>Европейская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/lavocado/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16463" data-adr="55.762817668661,37.594670376386" data-type="map-item" data-name="Lotus Room" data-phone="+ 7 (495) 098 01 20" data-address="Малая Бронная 21/13" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Lotus Room</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Паназиатская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/lotus-room/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16462" data-adr="55.752217925215,37.568122162819" data-type="map-item" data-name="Maroon" data-phone="+7 (985) 727 61 71" data-address="Кутузовский проспект 2/1 стр.6" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Maroon</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Ближневосточная</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/maroon/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16461" data-adr="55.740970480395,37.609564526812" data-type="map-item" data-name="Medusa" data-phone="+7 (499) 702 07 80" data-address="Берсеневский переулок, 2, стр. 1" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Medusa</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Паназиатская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/medusa/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="53744" data-adr="55.744637,37.565" data-type="map-item" data-name="Medusa Европейский" data-phone="+7 (915) 415 30 02" data-address="ТЦ Европейский, Атриум Берлин, 2 этаж" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Medusa Европейский</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Паназиатская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/medusa-evropeyskiy/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc active" id="53705" data-adr="55.694363,37.674588" data-type="map-item" data-name="Medusa Остров Мечты" data-phone="+7 (495) 220 13 10" data-address="пр-кт. Андропова, 1" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Medusa Остров Мечты</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Паназиатская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/medusa-ostrov-mechty/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16459" data-adr="55.760052652621,37.596452378942" data-type="map-item" data-name="№13" data-phone="+ 7 (495) 695 58 88" data-address="ул. Малая Бронная, 13" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>№13</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Smart Comfort Food</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/13/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16457" data-adr="55.757410992457,37.612512914028" data-type="map-item" data-name="Novikov Moscow" data-phone="+ 7 (495) 797 57 20" data-address="Тверская ул., 3, 1-й эт. отеля The Ritz-Carlton" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Novikov Moscow</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Паназиатская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/novikov-moscow/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="57379" data-adr="55.763787370622,37.628275599378" data-type="map-item" data-name="Prime Cafe " data-phone="+7 (495) 663 72 33" data-address="Мясницкая ул. 24" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Prime Cafe</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Европейская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/prime-cafe-/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16455" data-adr="55.758448655783,37.621030189128" data-type="map-item" data-name="SAVVA" data-phone="+7 (499) 795 99 99" data-address="Театральный проезд, д. 2" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>SAVVA</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Авторская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/savva/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16454" data-adr="55.763567034447,37.596862311753" data-type="map-item" data-name="SHIBA" data-phone="+7 (495) 276 70 67" data-address="Большой Палашёвский переулок, 1/14 стр.1" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>SHIBA</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Японская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/shiba/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="57323" data-adr="55.801452216555,37.280413198731" data-type="map-item" data-name="SHIBA Архангельское Аутлет" data-phone="+7 (495) 280 28 00" data-address="МО, Красногорск, деревня Воронки, 1, корп. 1 ТК &quot;Архангельское Аутлет&quot;" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>SHIBA Архангельское Аутлет</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Японская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/shiba-arkhangelskoe-autlet/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16453" data-adr="55.821470158404,37.383591547012" data-type="map-item" data-name="Shore House" data-phone="+7 (495) 727 26 78" data-address="Крокус Сити (66-й км МКАД)" data-site="https://shore-house.ru">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Shore House</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Грузинская</div>
+											<div>Домашняя</div>
+											<div>Кавказская</div>
+											<div>Узбекская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/shore-house/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16452" data-adr="55.760535820176,37.600266147276" data-type="map-item" data-name="Simach в Недальнем" data-phone="+7 (965) 438 70 86" data-address="Тверской бульвар, 15, стр.2" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Simach в Недальнем</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Паназиатская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/simach-v-nedalnem/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16451" data-adr="55.774884903275,37.639468425683" data-type="map-item" data-name="Sirena" data-phone="+7 (495) 767 14 12" data-address="ул. Большая Спасская, 15, стр.4" data-site="https://sirena.rest">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Sirena</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Рыбная</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/sirena/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="57385" data-adr="55.754904,37.559840273191" data-type="map-item" data-name="STUDIO DONNA MARGARITA" data-phone="+7 (499) 682 70 01" data-address="ул. 1905 года, 2, стр. 1" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>STUDIO DONNA MARGARITA</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Итальянская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/studio-donna-margarita/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16448" data-adr="55.768909235825,37.620668075013" data-type="map-item" data-name="Valenok" data-phone="+7 (903) 505 60 45" data-address="Цветной б-р, 5" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Valenok</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Домашняя</div>
+											<div>Европейская</div>
+											<div>Русская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/valenok/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16450" data-adr="55.834968003237,37.479584206188" data-type="map-item" data-name="Vodный" data-phone="+7 (495) 783 13 90" data-address="Ленинградское ш., 39, стр. 6" data-site="http://vodniy-moscow.ru/">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Vodный</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Итальянская</div>
+											<div>Узбекская</div>
+											<div>Японская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/vodnyy/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16449" data-adr="55.74408704762,37.602475895882" data-type="map-item" data-name="Vаниль" data-phone="+7 (495) 637 10 82" data-address="ул. Остоженка, 1/9" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Vаниль</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Европейская</div>
+											<div>Французская</div>
+											<div>Фьюжн</div>
+											<div>Японская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/vanil/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16447" data-adr="55.754031663785,37.57623937826" data-type="map-item" data-name="White Cafe" data-phone="+7 (495) 690 71 60" data-address="ул. Новый Арбат, 36" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>White Cafe</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Европейская</div>
+											<div>Японская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/white-cafe/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="51714" data-adr="55.743273,37.604401" data-type="map-item" data-name="YOKO" data-phone="+7 (495) 637 13 70" data-address="Соймоновский пр-д, 5" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>YOKO</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Азиатская</div>
+											<div>Японская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/yoko/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16446" data-adr="55.743307614415,37.604334859671" data-type="map-item" data-name="YOKO Новый Арбат" data-phone="+7 (495) 995 88 86" data-address="ул. Новый Арбат, 32" data-site="https://yokomoscow.ru">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>YOKO Новый Арбат</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Японская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/yoko-novyy-arbat/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16444" data-adr="55.760313922566,37.57885097654" data-type="map-item" data-name="ZOO BEER&amp;GRILL" data-phone="+7 (495) 114 51 93" data-address="ул. Конюшковская, 34, стр. 1" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>ZOO BEER&GRILL</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Европейская</div>
+											<div>Мясная</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/zoo-beer-grill/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16497" data-adr="55.760342,37.596965" data-type="map-item" data-name="Аист" data-phone="+7 (499) 940 70 40" data-address="Москва, ул. Малая Бронная, 8/1" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Аист</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Итальянская</div>
+											<div>Современная европейская</div>
+											<div>Японская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/aist/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16496" data-adr="55.751913,37.584901" data-type="map-item" data-name="Бараshка на Арбате" data-phone="+7 (499) 530 82 95" data-address="ул. Новый Арбат, 21, стр. 1" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Бараshка на Арбате</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Азербайджанская</div>
+											<div>Кавказская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/barashka-na-arbate/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16495" data-adr="55.765836269656,37.620209067841" data-type="map-item" data-name="Белое солнце пустыни" data-phone="+7 (495) 625 25 96" data-address="ул. Неглинная, 29, стр. 5" data-site="https://bsp-rest.ru">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Белое солнце пустыни</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Арабская</div>
+											<div>Паназиатская</div>
+											<div>Узбекская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/beloe-solntse-pustyni/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16494" data-adr="55.736676,37.247314" data-type="map-item" data-name="Веранда у дачи" data-phone="+7 (495) 635 33 94" data-address="МО, Рублево-Успенское ш., дер. Жуковка, 70" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Веранда у дачи</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Домашняя</div>
+											<div>Европейская</div>
+											<div>Итальянская</div>
+											<div>Узбекская</div>
+											<div>Японская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/veranda-u-dachi/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16493" data-adr="55.724920096907,37.176027145299" data-type="map-item" data-name="Ветерок" data-phone="+7 (495) 920 57 34" data-address="МО, Рублево-Успенское ш., пос. Горки-2, 24" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Ветерок</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Домашняя</div>
+											<div>Европейская</div>
+											<div>Кавказская</div>
+											<div>Узбекская</div>
+											<div>Японская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/veterok/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="57380" data-adr="55.765345869841,37.629331848034" data-type="map-item" data-name="Вокруг света" data-phone="+7 (495) 967 77 77" data-address="Никольская, 10" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Вокруг света</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Фьюжн</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/vokrug-sveta/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16492" data-adr="55.755532702012,37.559840273191" data-type="map-item" data-name="Донна Маргарита" data-phone="+7 (499) 682 70 01" data-address="ул. 1905 года, 2, стр. 1 " data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Донна Маргарита</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Итальянская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/donna-margarita/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16491" data-adr="55.779133331512,37.633420985376" data-type="map-item" data-name="Кавказская пленница" data-phone="+7 (495) 680 51 11" data-address="Проспект Мира, 36 стр. 1" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Кавказская пленница</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Кавказская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/kavkazskaya-plennitsa/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="1111" data-adr="55.767815355206,37.613559603118" data-type="map-item" data-name="Клёво" data-phone="+7 (495) 790 15 96" data-address="ул. Петровка, 27" data-site="https://klevo.rest">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Клёво</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Европейская</div>
+											<div>Рыбная</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/klyevo/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="57286" data-adr="55.744637,37.566072" data-type="map-item" data-name="Клёво Европейский" data-phone="‎+7 (985) 122 28 00" data-address="Площадь Киевского Вокзала, 2" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Клёво Европейский</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Рыбная</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/klyevo-evropeyskiy/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="57288" data-adr="55.727506,37.565" data-type="map-item" data-name="Клёво Усачёвский" data-phone="+7 (499) 530 83 20" data-address=" Усачёва ул., 26" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Клёво Усачёвский</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Европейская</div>
+											<div>Рыбная</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/klyevo-usachyevskiy/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16489" data-adr="55.683919,37.550567" data-type="map-item" data-name="Клевое Бистро" data-phone="+7 (495) 308 78 80" data-address="ул. Вавилова, 64/1, стр. 1" data-site="https://www.klevobistro.ru">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Клевое Бистро</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Европейская</div>
+											<div>Рыбная</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/klevoe-bistro/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="51715" data-adr="55.778466,37.585925" data-type="map-item" data-name="Магадан Белая Площадь" data-phone="+7 (495)136 96 63" data-address="Бутырский вал, 10" data-site="http://magadan.delivery/">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Магадан Белая Площадь</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Европейская</div>
+											<div>Рыбная</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/magadan-belaya-ploshchad/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="51716" data-adr="55.759070498836,37.576308281771" data-type="map-item" data-name="Магадан Красная Пресня" data-phone="+7 (495) 098 02 11" data-address="Ул. Дружинниковская, д. 30, стр. 1" data-site="https://magadanpresnya.ru ">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Магадан Красная Пресня</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Рыбная</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/magadan-krasnaya-presnya/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="11867" data-adr="55.741859151846,37.609778347844" data-type="map-item" data-name="Магадан Красный Октябрь" data-phone="+7 (905) 573 10 34" data-address="Берсеневский переулок, д. 3/10, стр. 8" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Магадан Красный Октябрь</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Европейская</div>
+											<div>Рыбная</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/magadan-krasnyy-oktyabr/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="51718" data-adr="55.966786,37.415685" data-type="map-item" data-name="Магадан Шереметьево" data-phone="+7 (967) 026 07 92" data-address="МО, Аэропорт Шереметьево, терминал B,С" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Магадан Шереметьево</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Рыбная</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/magadan-sheremetevo/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="57329" data-adr="55.745153646202,37.566061070124" data-type="map-item" data-name="Огоньки Cafe" data-phone="+7 (495) 229 63 10" data-address="площадь Киевского вокзала, 2 ТРЦ &quot;Европейский&quot;, Атриум Берлин, 1 этаж" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Огоньки Cafe</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Европейская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/ogonki-cafe/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16482" data-adr="55.753021285994,37.227967069212" data-type="map-item" data-name="Причал" data-phone="+7 (495) 635 40 32" data-address="Московская область, Ильинский подъезд, 2-й км" data-site="https://prichalrest.ru">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Причал</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Восточная</div>
+											<div>Европейская</div>
+											<div>Кавказская</div>
+											<div>Русская</div>
+											<div>Японская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/prichal/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16480" data-adr="55.759035,37.625513" data-type="map-item" data-name="Рыбы нет" data-phone="+7 (495) 258 42 06" data-address="Никольская ул., 12 (отель «St. Regis Москва Никольская», 1-й эт.)" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Рыбы нет</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Мясная</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/ryby-net/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16479" data-adr="55.740958,37.318335" data-type="map-item" data-name="Спортсмены" data-phone="+7 (495) 120 88 20" data-address="МО, деревня Раздоры, Рублёвский проезд, Парк Малевича" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Спортсмены</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Выпечка</div>
+											<div>Домашняя</div>
+											<div>Европейская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/sportsmeny/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="1231" data-adr="55.75814090267,37.618138334387" data-type="map-item" data-name="Страна которой нет" data-phone="+7 (495) 259 70 80" data-address="ул. Охотный Ряд, 2, ТГ «Модный сезон» " data-site="https://stranakotoroynet.ru/">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Страна которой нет</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Домашняя</div>
+											<div>Европейская</div>
+											<div>Узбекская</div>
+											<div>Фьюжн</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/strana-kotoroy-net/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="53712" data-adr="55.779474,37.591899" data-type="map-item" data-name="Сыроварня в Депо" data-phone="+7 (495) 228 83 17" data-address="ул. Лесная, 20, стр. 4" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Сыроварня в Депо</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Итальянская деревенская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/syrovarnya-v-depo/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="53710" data-adr="55.661638,37.480148" data-type="map-item" data-name="Сыроварня на Вернадского" data-phone="+7 (499) 652 59 76" data-address="Проспект Вернадского,  86В" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Сыроварня на Вернадского</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Итальянская деревенская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/syrovarnya-na-vernadskogo/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16478" data-adr="55.741101673659,37.609462796295" data-type="map-item" data-name="Сыроварня на Октябре" data-phone="+7 (495) 727 38 80" data-address="Красный Октябрь, Берсеневский пер, 2, стр. 1" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Сыроварня на Октябре</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Итальянская деревенская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/syrovarnya-na-oktyabre/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="57274" data-adr="55.80051065368,37.282035894165" data-type="map-item" data-name="Сыроварня Новая Рига" data-phone="+ 7 (495) 149 99 91" data-address="Новорижское шоссе 7 км, МО, городской округ Красногорск, д. Воронки, ТК &quot;Архангельское Аутлет&quot;" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Сыроварня Новая Рига</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Итальянская деревенская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/syrovarnya-novaya-riga/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="57279" data-adr="55.727932,37.476169" data-type="map-item" data-name="Сыроварня Океания" data-phone="+7 (967) 280 57 57" data-address="Кутузовский проспект, 57" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Сыроварня Океания</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Итальянская деревенская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/syrovarnya-okeaniya/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="57303" data-adr="55.731412,37.604677" data-type="map-item" data-name="Сыроварня Парк Горького" data-phone="+7 (968) 525 65 00" data-address="Крымский вал, 9, стр. 1" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Сыроварня Парк Горького</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Итальянская деревенская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/syrovarnya-park-gorkogo/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="51720" data-adr="55.727506,37.567707" data-type="map-item" data-name="СЫРОВАРНЯ УСАЧЕВСКИЙ" data-phone="+7 (499) 530 82 97" data-address="ул. Усачёва, 26" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>СЫРОВАРНЯ УСАЧЕВСКИЙ</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Итальянская деревенская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/syrovarnya-usachevskiy/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="57282" data-adr="55.777105,37.523716" data-type="map-item" data-name="Сыроварня Хорошо" data-phone="+7 (495) 198 18 17" data-address="Хорошёвское ш., 27" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Сыроварня Хорошо</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Итальянская деревенская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/syrovarnya-khorosho/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="53704" data-adr="55.683919,37.550567" data-type="map-item" data-name="СЫРОВАРНЯ ЧЕРЕМУШКИНСКИЙ" data-phone="+7 (499) 530 80 30" data-address="ул. Вавилова, д. 64/1, стр. 1" data-site="https://syrovarnya.com/">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>СЫРОВАРНЯ ЧЕРЕМУШКИНСКИЙ</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Итальянская деревенская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/syrovarnya-cheremushki/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="57381" data-adr="55.811163200143,37.800152056404" data-type="map-item" data-name="Сыроварня Щелковская" data-phone="+7 (925) 005 36 15" data-address="Щелковское шоссе , 75; ТРЦ Щелковский, 2 эт." data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Сыроварня Щелковская</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Итальянская деревенская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/syrovarnya-shchelkovskaya/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16477" data-adr="55.76605185093,37.620372303095" data-type="map-item" data-name="Узбекистан" data-phone="+7 (495) 625 25 96" data-address="ул. Неглинная, 29 стр. 5" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Узбекистан</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Арабская</div>
+											<div>Паназиатская</div>
+											<div>Узбекская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/uzbekistan/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="16476" data-adr="55.737394154524,37.248119816802" data-type="map-item" data-name="Царская охота" data-phone="+7 (495) 635 79 82" data-address="МО, Рублево-Успенское ш., дер. Жуковка, 186А" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Царская охота</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Охотничья</div>
+											<div>Русская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/tsarskaya-okhota/">Перейти в ресторан</a>
+							</div>
+							<div class="mapList-item restaurant-desc" id="5681" data-adr="55.76877,37.59595" data-type="map-item" data-name="Чайковский" data-phone="+7 (495) 699 91 14" data-address="Триумфальная пл., 4/31" data-site="">
+								<div class="img"><img src="assets/images/list.jpg" alt="" /></div>
+								<h4>Чайковский</h4>
+								<div class="inner">
+									<div class="list">
+										<div class="title">кухни</div>
+										<div class="text">
+											<div>Европейская</div>
+											<div>Русская</div>
+										</div>
+									</div>
+								</div><a class="link" href="/restaurants/detail/chaykovskiy/">Перейти в ресторан</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="page-footer">
+				<div class="page-footer-top" data-aos="fade-up">
+					<div class="container">
+						<div class="row bottom__xs">
+							<div class="col col__lg-6 col__xs-12">
+								<div class="alpha">Будьте в курсе</div>
+								<p class="text__mg">Гастрономические новости, советы, акции и многое другое</p>
+							</div>
+							<div class="col col__lg-6 col__xs-12">
+								<form method="POST" action="" data-type="container-form">
+									<div class="form-inner">
+										<div class="form__group">
+											<div class="input"><input class="control" type="email" placeholder="E–mail" required>
+												<div class="control-error"></div>
+											</div><button class="form--js" type="submit"><img src="assets/images/icons/link-next-w.svg" alt="" /></button>
+										</div>
+										<div class="checkbox"><input type="checkbox" id="signItFooter" required><label for="signItFooter">Даю согласание на обработку <a href="#">персональных данных</a>
+												<div class="control-error"></div>
+											</label></div>
+									</div><!-- добавить класс .shown чтобы показать блок-->
+									<div class="form-answer">
+										<h4>Вы подписались успешно</h4><button class="back--js"><img src="assets/images/icons/link-next-w.svg" alt="" /></button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="page-footer-bottom" data-aos="fade-up">
+					<div class="container">
+						<div class="row">
+							<div class="col col__xl-6 col__lg-5 col__md-4 col__xs-12 hidden__xs hidden__sm"><img src="assets/images/logo-w.svg" alt="" /></div>
+							<div class="col col__xl-6 col__lg-7 col__md-8 col__xs-12 subscribe-container">
+								<div class="row between__xs">
+									<div class="col">
+										<ul class="footer-menu">
+											<li><a href="/novikov/dist/restaurants.html">Рестораны</a></li>
+											<li><a href="/novikov/dist/about.html">О компании</a></li>
+											<li><a href="/novikov/dist/partners.html">Партнеры</a></li>
+										</ul>
+									</div>
+									<div class="col col__md col__xs-7">
+										<ul class="footer-menu">
+											<li><a href="/novikov/dist/certificates.html">Подарочные сертификаты</a></li>
+											<li><a href="#">Карта лояльности</a></li>
+											<li><a href="/novikov/dist/discount.html">Дисконтные карты</a></li>
+										</ul>
+									</div>
+									<div class="col hidden__xs hidden__sm">
+										<ul class="footer-menu">
+											<li><a href="/novikov/dist/events.html">События</a></li>
+											<li><a href="/novikov/dist/projects.html">Проекты</a></li>
+											<li><a href="/novikov/dist/vacancies.html">Вакансии</a></li>
+											<li><a href="/novikov/dist/contacts.html">Контакты</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="subscribe box--js" data-href="subscribe-block--js"><svg class="subscribe__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none">
+										<path d="M5.64645 17.6464L0.5 22.7929V0.5H23.5V17.5H6H5.79289L5.64645 17.6464Z" stroke="white"></path>
+										<line x1="5" y1="6.5" x2="19" y2="6.5" stroke="#EE1623"></line>
+										<line x1="5" y1="11.5" x2="19" y2="11.5" stroke="#EE1623"></line>
+									</svg>
+									<div class="subscribe__text">обратная связь</div>
+								</div>
+							</div>
+							<div class="col col__md-12 col__xs-5">
+								<ul class="footer-menu">
+									<li><a href="#">Instagram</a></li>
+									<li><a href="#">Telegram</a></li>
+									<li><a href="#">Facebook</a></li>
+								</ul>
+							</div>
+							<div class="col col__xl-6 col__lg-5 col__md-4 col__xs-7 page-footer-app"><a class="subscribe-under" href="#"><img src="assets/images/appStore.svg" alt="" /></a></div>
+							<div class="col col__xl-6 col__lg-7 col__md-8 col__xs-12 page-footer-app"><a class="copy" href="#">Политика конфиденциальности</a><a class="copy" href="#">Договор оферты</a></div>
+						</div>
+						<div class="page-footer-copy">
+							<div class="row">
+								<div class="col col__xl-6 col__lg-5 col__xs-12"></div>
+								<div class="col col__xl-6 col__lg-7 col__xs-12">
+									<div class="row between__xs middle__xs">
+										<div class="col">
+											<div class="copy">© Novikov Group 2021. Все права защищены</div>
+										</div>
+										<div class="col">
+											<div class="cloudmill">Сделано в <a href="#">CloudMill</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;amp;apikey=2844f35b-1df5-4037-b64b-f91b25aabb18"></script>
+		<script type="text/javascript" src="assets/vendor.js"></script>
+		<script type="text/javascript" src="assets/app.js"></script>
+	</body>
+
+</html>
